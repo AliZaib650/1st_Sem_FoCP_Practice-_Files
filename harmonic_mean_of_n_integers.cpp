@@ -22,8 +22,8 @@ int main()
         cout<< "You can't enter 0" << endl;
         continue;
     }
-    reci = 1/num;
-    sum= sum + reci;
+    reci = 1.0/num;
+    sum = sum + reci;
     i++;
 
     } while (i<n);
